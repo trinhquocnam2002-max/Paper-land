@@ -1,0 +1,153 @@
+---
+name: Minimalist Stationery & Goods
+colors:
+  surface: '#f9f9f9'
+  surface-dim: '#dadada'
+  surface-bright: '#f9f9f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f3f3'
+  surface-container: '#eeeeee'
+  surface-container-high: '#e8e8e8'
+  surface-container-highest: '#e2e2e2'
+  on-surface: '#1a1c1c'
+  on-surface-variant: '#444748'
+  inverse-surface: '#2f3131'
+  inverse-on-surface: '#f0f1f1'
+  outline: '#747878'
+  outline-variant: '#c4c7c7'
+  surface-tint: '#5f5e5e'
+  primary: '#0b0c0c'
+  on-primary: '#ffffff'
+  primary-container: '#222222'
+  on-primary-container: '#8a8989'
+  inverse-primary: '#c8c6c5'
+  secondary: '#5e5e5e'
+  on-secondary: '#ffffff'
+  secondary-container: '#e3e2e2'
+  on-secondary-container: '#646464'
+  tertiary: '#0b0c0a'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#222220'
+  on-tertiary-container: '#8a8986'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e5e2e1'
+  primary-fixed-dim: '#c8c6c5'
+  on-primary-fixed: '#1b1c1c'
+  on-primary-fixed-variant: '#474746'
+  secondary-fixed: '#e3e2e2'
+  secondary-fixed-dim: '#c7c6c6'
+  on-secondary-fixed: '#1b1c1c'
+  on-secondary-fixed-variant: '#464747'
+  tertiary-fixed: '#e4e2de'
+  tertiary-fixed-dim: '#c8c6c3'
+  on-tertiary-fixed: '#1b1c1a'
+  on-tertiary-fixed-variant: '#474744'
+  background: '#f9f9f9'
+  on-background: '#1a1c1c'
+  surface-variant: '#e2e2e2'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '500'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.05em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+spacing:
+  gutter: 24px
+  margin: 32px
+  space-xs: 4px
+  space-sm: 8px
+  space-md: 16px
+  space-lg: 24px
+  space-xl: 48px
+---
+
+## Brand & Style
+
+This design system embodies a refined, editorial minimalism inspired by high-end stationery and lifestyle goods. The brand personality is calm, intentional, and tactile, appealing to creators, professionals, and design enthusiasts who value understated elegance. The visual language evokes a sense of tranquility and clarity, utilizing vast negative space, restrained palettes, and meticulous typography to let the content breathe.
+
+## Colors
+
+The color palette is strictly restrained, relying on warm neutrals, deep charcoal for high-legibility text, and subtle stone accents. Color is used sparingly to maintain an uncluttered environment where product imagery and typography take center stage. 
+
+- **Primary:** Deep Charcoal (`#222222`) for strong structural lines and primary typography.
+- **Secondary:** Muted Taupe (`#888888`) for secondary text, inactive states, and delicate borders.
+- **Tertiary:** Warm Stone (`#F4F2EE`) for subtle surface differentiation and container backgrounds.
+- **Neutral:** Off-White (`#FAFAFA`) for the primary canvas and background layers.
+
+## Typography
+
+The typography system relies entirely on Inter, a clean, modern, minimalist sans-serif typeface. Characterized by geometric precision and exceptional legibility, the scale makes heavy use of uppercase tracking for category headers and navigation, paired with generous line heights and balanced weights to maintain an editorial feel across all screen sizes.
+
+## Layout & Spacing
+
+The layout model relies on a clean, flexible grid system paired with generous margins to emphasize whitespace. 
+
+- **Grid:** A 12-column fluid grid system utilizing 24px gutters and responsive outer margins (32px on mobile, up to 80px on desktop).
+- **Rhythm:** Spacing increments adhere strictly to an 8pt baseline grid, ensuring consistent vertical rhythm and alignment across all viewports.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated primarily through subtle tonal shifts and low-contrast outlines rather than heavy drop shadows. 
+
+- **Surfaces:** Use flat, tonal layering where containers are distinguished by shifting between the off-white neutral canvas and warm stone surface tokens.
+- **Borders:** Extremely delicate "ghost borders" in muted taupe (`#888888` at low opacity) delineate interactive zones and structural divisions, preserving the airy, minimalist aesthetic.
+
+## Shapes
+
+This design system uses sharp geometry (`0` roundedness) with 0px corner radii across all UI elements. Buttons, inputs, cards, and image containers feature crisp 90-degree corners, reinforcing the precise, architectural, and editorial quality of high-end print stationery.
+
+## Components
+
+- **Buttons:** Sharp-cornered rectangles featuring high-contrast solid fills for primary actions, and clean 1px outlines for secondary actions. Padding is generous horizontally to enhance touch targets without sacrificing the sleek profile.
+- **Chips & Tags:** Compact, uppercase labels set with wide tracking, bounded by subtle 1px borders, ideal for categorization and filters.
+- **Lists:** Clean typographic rows separated by hairline dividers. Generous vertical padding ensures readability.
+- **Checkboxes & Radio Buttons:** Precise square and circular geometric line art. Unchecked states use a fine 1px border; checked states fill completely with the primary charcoal tone.
+- **Input Fields:** Unfilled or lightly tinted background blocks featuring a bottom-only or full 1px border. Focus states transition smoothly to the primary dark tone without outer glows.
+- **Cards:** Edge-to-edge content containers utilizing tonal background shifts or thin bounding lines to structure product grids and editorial features.

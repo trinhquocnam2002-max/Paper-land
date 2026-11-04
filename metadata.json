@@ -1,0 +1,6 @@
+{
+  "name": "Minimalist Stationery & Goods",
+  "description": "An editorial stationery atelier and tactile paper studio featuring curated notebooks, writing instruments, and desk objects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
